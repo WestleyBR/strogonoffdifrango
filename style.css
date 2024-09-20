@@ -1,4 +1,12 @@
 
+ .banner{
+    text-align:center;
+    border: solid;
+    text-align: center;
+    position: relative;
+    display: block;
+ }
+ 
  .button {
     display: flex;
     justify-content: center;
@@ -15,6 +23,7 @@
 
 .button:hover {
     transform: scale(1.2);
+    border: double;
 }
 
 
@@ -26,41 +35,60 @@
 }
 
 .title{
+    padding: 8px;
+    margin: -32px;
+    align-items: top;
+    text-align: center;
+    height:500px;
+    width: auto;
     background-color: black;
     color: rgb(253, 253, 253);
-    font-size: 100px;
+    font-size: xxx-large;
+    display: block;
 }
 
 .subtext{
     background-color: rgb(177, 172, 172);
     color: black;
     font-size: 46px;
+    padding: 8px;
+    margin: -8px;
 }
 
 .text{
-    font-size: 26px;
+    font-size: 36px;
     font-weight: 500;
     align-items: center;
     display:block;
     margin: auto;
+    text-indent: 2px;
+    line-height: 70px;
 }
+
+.text .ingredientes{
+    line-height: 40px;
+}
+
 
 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 300;
+    border: solid;
 }
 
 ul,
 ol {
     display:table;
-    margin: 0 auto;
-    text-align: center;
+    margin: 100 auto;
+    text-align: left;
 }
 
 .imgprinc {
-    width: 2500px;
+    padding: 8px;
+    margin: -32px;
+    width: 2600px;
     height: 150px;
 }
 
@@ -69,6 +97,7 @@ ol {
     display: flex;
     width: 100%;
     justify-content: center;
+    height: -150px;
   }
 
   a {
@@ -80,8 +109,8 @@ ol {
   }
 
 
-
-
-
+body{
+    background-color: rgb(216, 214, 214);
+}
 
 
