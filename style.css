@@ -35,14 +35,22 @@ img {
 }
 
 
-.button {
+input{
+    height: 1.20rem;
+}
+
+.imgprinc {
+    width: 100%;
+}
+
+.button1,
+.button2,
+.button3 {
     height: 100px;
     color: white;
     text-decoration: none;
     box-sizing: border-box;
-    height: 100px;
     display: inline-block;
-    left: 30%;
     font-size: 3rem;
     position: relative;
     background-color: black;
@@ -51,6 +59,19 @@ img {
     transition: .2 ease-in;
 }
 
-.button:hover {
+.container {
+    text-align: center;
+}
+
+.button1:hover,
+.button2:hover,
+.button3:hover {
     transform: scale(1.2);
+}
+
+.align {
+    left: 50px;
+    background-color: red;
+    width: 50%;
+    display: inline-block;
 }
